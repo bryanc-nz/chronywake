@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>KeepAlive</key>
+	<true/>
+	<key>Label</key>
+	<string>net.whatroute.chronywake</string>
+	<key>Program</key>
+	<string>/usr/local/bin/chronywake</string>
+	<key>ProgramArguments</key>
+	<array>
+		<string>chronywake</string>
+		<string>-c</string>
+		<string>/usr/local/bin/chronyc</string>
+		<string>-g</string>
+		<string>4</string>
+		<string>-l</string>
+		<string>3</string>
+		<string>-m</string>
+		<string>4</string>
+		<string>-t</string>
+		<string>0.05</string>
+	</array>
+</dict>
+</plist>
